@@ -3,6 +3,7 @@ exclude:
   - package.json
   - node_modules
   - gulpfile.js
+  - resources
 collections:
   assets:
     permalink: /assets/:path/

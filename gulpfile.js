@@ -7,8 +7,8 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     run = require('gulp-run');
 
-var srcPath = './_assets/';
-var destPath = './_site/dist/';
+var srcPath = './resources/';
+var destPath = './_assets/';
 
 gulp.task('jekyll', function () {
     return run('jekyll build').exec();
