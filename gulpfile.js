@@ -39,8 +39,8 @@ gulp.task('scripts', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(srcPath + 'sass/**/*.scss', ['styles']);
-  gulp.watch(srcPath + 'js/**/*.js', ['scripts']);
+  gulp.watch(srcPath + 'sass/**/*.scss', ['styles', 'jekyll']);
+  gulp.watch(srcPath + 'js/**/*.js', ['scripts', 'jekyll']);
   gulp.watch(['./**/*.html', './**/*.md'], ['jekyll']);
 });
 

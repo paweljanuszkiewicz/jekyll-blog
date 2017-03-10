@@ -1,2 +1,2 @@
-
+*{margin:0;padding:0;border:0;box-sizing:border-box}html{font-family:'Slabo 13px';font-size:12px}.container{max-width:1140px;margin:0 auto}.clear{clear:both}.header__title{font-size:2rem;padding:3rem 0}.footer{background-color:#1d1d1d;color:#fff}.nav-bar{background-color:#1d1d1d;color:#fff;padding:20px 0}.nav-bar__logo,.nav-bar__nav{font-size:2rem}.nav-bar__nav{list-style:none;float:right}.nav-bar__nav li{display:inline-block}.nav-bar__nav li:not(:last-child){margin-right:2rem}.nav-bar__nav a{text-decoration:none;color:#fff}.nav-bar__nav a:hover{text-decoration:line-through}
 /*# sourceMappingURL=styles.css.map */
