@@ -7,10 +7,20 @@
 
 html {
     font-family: 'Slabo 13px';
-    font-size: 12px;
+    font-size: 14px;
 }
 
-@import 'grid/grid';
+body {
+	background-color: #1d1d1d;
+}
+
+@import 'general/grid';
+@import 'general/typography';
+@import 'general/general';
 @import 'header/header';
 @import 'footer/footer';
 @import 'nav-bar/nav-bar';
+
+@import 'main/main';
+@import 'post/post';
+@import 'article/article';

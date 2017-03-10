@@ -1,9 +1,9 @@
 <section class="nav-bar">
     <div class="container">
         <ul class="nav-bar__nav">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Blog</a></li>
+            <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+            <li><a href="/about.html" {% if page.url == "/about.html" %}class="active"{% endif %}>About</a></li>
+            <li><a href="/blog.html" {% if page.url == "/blog.html" %}class="active"{% endif %}>Blog</a></li>
         </ul>
         <div class="nav-bar__logo">Jekyll Blog</div>
         <div class="clear"></div>
